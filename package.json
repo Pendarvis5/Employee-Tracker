@@ -2,9 +2,10 @@
   "name": "employee-tracker",
   "version": "1.0.0",
   "description": "The task is to create a Content Management system. This application will be developed using a command-line application to manage a company's employee database.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
