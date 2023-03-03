@@ -12,7 +12,8 @@ The user will need to complete the task through the use of Node.Js, Inquirer, an
 
 ## Visuals
 
-Coming soon
+<img width="313" alt="image" src="https://user-images.githubusercontent.com/118090944/222633900-9eb1d348-83e1-45bb-9fd0-5306666e85ce.png">
+
 
 
 
