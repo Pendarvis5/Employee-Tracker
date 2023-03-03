@@ -4,6 +4,7 @@ const table = require('console.table')
 
 const connection = mysql.createConnection({
     host: 'localhost',
+    port: 3306,
     user: 'root',
     password: 'Officer0808!',
     database: 'employee_db'
@@ -203,9 +204,10 @@ const employeeTracker = async () => {
                     } )
                 break;
 
-               default
+               default:
                     break;
-            })
+            }
+        
         })
         .catch((error) => {
             if (error.isTtyError) {
